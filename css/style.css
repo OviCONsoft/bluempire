@@ -161,7 +161,6 @@ p {
   .contact-text {
      display: inline-block !important;
     opacity: 1 !important;        
-    pointer-events: auto !important;
   }
 }
 
