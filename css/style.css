@@ -159,7 +159,9 @@ p {
 
 @media screen and (max-width: 1024px) {
   .contact-text {
-    display: inline-block !important;  
+     display: inline-block !important;
+    opacity: 1 !important;        
+    pointer-events: auto !important;
   }
 }
 
