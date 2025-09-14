@@ -155,7 +155,11 @@ p {
   opacity: 1;
   pointer-events: auto;
 }
-
+@media screen and (max-width: 1024px) {
+  .contact-text {
+    display: inline-block !important;  
+  }
+}
 label {
   color: #7e7e7e;
   cursor: pointer;
