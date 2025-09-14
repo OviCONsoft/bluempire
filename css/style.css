@@ -145,6 +145,7 @@ p {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
+  display: none;
 }
 .contact-icon:hover i {
   color: black; 
@@ -155,11 +156,13 @@ p {
   opacity: 1;
   pointer-events: auto;
 }
+
 @media screen and (max-width: 1024px) {
   .contact-text {
     display: inline-block !important;  
   }
 }
+
 label {
   color: #7e7e7e;
   cursor: pointer;
@@ -1557,7 +1560,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 37px;
     line-height: 1.2;
     margin: 20px 0;
   }
